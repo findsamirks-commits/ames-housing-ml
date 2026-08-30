@@ -1,4 +1,5 @@
 # 🏠 California Housing Price Prediction Pipeline
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/findsamirks-commits/ames-housing-ml/blob/main/ames_housing_eda_and_model.ipynb)
 
 An end-to-end machine learning project designed to predict California housing prices based on district-level demographic and geographical data. This repository contains the complete workflow, from initial data exploration to a live, interactive web application.
 
