@@ -17,6 +17,9 @@ graph TD;
     C -->|Joblib| D[(Compressed .joblib Model)]
     D -->|Streamlit| E[Interactive Web Application]
 ```
+**How this project fits together:**
+* **The Notebook (.ipynb):** This is the 'Laboratory' where we explore the data and train the AI brain.
+* **The Web App (app.py):** This is the 'Storefront' where we wrap our trained AI in a nice website so anyone can easily interact with it.
 
 **Tech Stack**
 * Python, Pandas, NumPy, Scikit-Learn, Streamlit, Google Colab
