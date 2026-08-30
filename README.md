@@ -11,10 +11,11 @@ An end-to-end machine learning project designed to predict California housing pr
 * Python, Pandas, NumPy, Scikit-Learn, Streamlit, Google Colab
 
 **How to Run the Web App Locally**
-1. Clone the repository.
-2. Ensure the `models/` directory contains the `.joblib` file.
-3. Run `streamlit run app.py` in your terminal.
+1. Clone this repository to your local machine.
+2. Install the required Python dependencies by running: `pip install streamlit pandas scikit-learn joblib`
+3. Download the `california_housing_compressed.joblib` file from the **Releases** section on the right side of this repository and place it in the root folder alongside `app.py`.
+4. Run `streamlit run app.py` in your terminal.
 
 ---
 **About the Author**
-Category Head at Milkbasket with 24 years of retail industry experience. Specializing in Category Management, Merchandising, Business Head, Data Science, retail analytics, and Agentic AI. Author is aluminus of Indian Institute of Foreign Trade (IIFT), Delhi and Indian Institute of Technology (IIT), Madras.
+Category Head at Milkbasket with 24 years of retail industry experience. Specializing in Category Management, Merchandising, Business Head, Data Science, retail analytics, and Agentic AI. Alumnus of the Indian Institute of Foreign Trade (IIFT), Delhi, and the Indian Institute of Technology (IIT), Madras.
