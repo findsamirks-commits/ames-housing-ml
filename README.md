@@ -16,6 +16,7 @@ An end-to-end machine learning project designed to predict California housing pr
 2. Install the required Python dependencies by running: `pip install streamlit pandas scikit-learn joblib`
 3. Download the `california_housing_compressed.joblib` file from the **Releases** section on the right side of this repository and place it in the root folder alongside `app.py`.
 4. Run `streamlit run app.py` in your terminal.
+5. OR instead of running everything manually, you can Run pip install -r requirements.txt
 
 ---
 **About the Author**
