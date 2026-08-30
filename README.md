@@ -17,19 +17,4 @@ graph TD;
     C -->|Joblib| D[(Compressed .joblib Model)]
     D -->|Streamlit| E[Interactive Web Application]
 
-**Tech Stack**
-* Python, Pandas, NumPy, Scikit-Learn, Streamlit, Google Colab
 
-**How to Run the Web App Locally**
-1. Clone this repository to your local machine.
-2. Install the required Python dependencies by running: `pip install streamlit pandas scikit-learn joblib`
-3. Download the `california_housing_compressed.joblib` file from the **Releases** section on the right side of this repository and place it in the root folder alongside `app.py`.
-4. Run `streamlit run app.py` in your terminal.
-5. OR instead of running everything manually, you can Run pip install -r requirements.txt
-
-**Common Troubleshooting (FAQ)**
-* **Error: FileNotFoundError for the .joblib file:** Make sure you downloaded the model from the "Releases" section on the right side of this page and placed it in the exact same folder as your `app.py` script.
-* **Error: "streamlit is not recognized":** Ensure you have installed the requirements using `pip install -r requirements.txt`. If it still fails, try running `python -m streamlit run app.py`.
----
-**About the Author**
-Category Head at Milkbasket with 24 years of retail industry experience. Specializing in Category Management, Merchandising, Business Head, Data Science, retail analytics, and Agentic AI. Alumnus of the Indian Institute of Foreign Trade (IIFT), Delhi, and the Indian Institute of Technology (IIT), Madras.
